@@ -1,9 +1,11 @@
 .footer__subtitles {
   width: 40%;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: space-around;
+  -ms-flex-pack: distribute;
+      justify-content: space-around;
   list-style: none;
   margin: 0 auto;
 
 }
-

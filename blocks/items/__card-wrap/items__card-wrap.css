@@ -1,7 +1,8 @@
 .items__card-wrap {
- display: flex;
-max-width: 360px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  max-width: 360px;
+  margin: 0 auto;
 
-margin: 0 auto;
-
-}
+ }

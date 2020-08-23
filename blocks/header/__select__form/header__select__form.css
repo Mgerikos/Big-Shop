@@ -28,7 +28,10 @@
   border-top: 1px solid rgba(0, 0, 0, 0.5);
   border-left: 1px solid rgba(0, 0, 0, 0.5);
   -webkit-transform: translateY(-50%) rotate(225deg);
-          transform: translateY(-50%) rotate(225deg);
+          -ms-transform: translateY(-50%) rotate(225deg);
+      transform: translateY(-50%) rotate(225deg);
+  -webkit-transition: all 0.4s;
+  -o-transition: all 0.4s;
   transition: all 0.4s;
 }
 
@@ -70,5 +73,4 @@ max-height: 10px;
 
   }
 }
-
 

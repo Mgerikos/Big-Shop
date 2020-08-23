@@ -1,13 +1,17 @@
 .showcase__menu {
   width: 100%;
   background-color: rgb( 255, 255, 255 );
-  box-shadow: 2.5px 4.33px 50px 5px rgb( 239, 239, 240 );
+  -webkit-box-shadow: 2.5px 4.33px 50px 5px rgb( 239, 239, 240 );
+          box-shadow: 2.5px 4.33px 50px 5px rgb( 239, 239, 240 );
   border-radius: 50px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
-  justify-content: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
   margin-bottom: 80px;
   padding-top: 27px;
   padding-bottom: 23px;
   margin-bottom: -50px;
 }
-

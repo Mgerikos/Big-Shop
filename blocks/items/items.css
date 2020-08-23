@@ -10,21 +10,33 @@
 @import url(./__add-to-cart/items__add-to-cart.css);
 
 .items {
+  display: -webkit-box;
 
- display: flex;
- flex-direction: row;
- flex-wrap: wrap;
+  display: -ms-flexbox;
 
-}
-
-.watches {
-  display: none;
- flex-direction: row;
- flex-wrap: wrap;
-}
-
-
-.watches.active {
   display: flex;
-}
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
 
+ }
+
+ .watches {
+   display: none;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+ }
+
+
+ .watches.active {
+   display: -webkit-box;
+   display: -ms-flexbox;
+   display: flex;
+ }

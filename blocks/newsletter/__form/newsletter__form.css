@@ -1,4 +1,6 @@
 .newsletter__form {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
   vertical-align: middle;
   position: relative;
@@ -38,7 +40,6 @@
   font-weight: 400;
   margin: 6px;
   padding: 13px 65px;
-  background-image: -moz-linear-gradient( 62deg, rgb( 140, 132, 249 ) 0%, rgb( 156, 108, 245 ) 100%);
   background-image: -webkit-linear-gradient( 62deg, rgb( 140, 132, 249 ) 0%, rgb( 156, 108, 245 ) 100%);
   border-radius: 50px;
   -webkit-transition: 0.3s opacity;
