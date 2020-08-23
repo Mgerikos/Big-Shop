@@ -1,0 +1,16 @@
+.banner__darkness {
+  background-image: url(../../../images/banner-darkness_deco.png);
+  background-image: -moz-linear-gradient( 63deg, rgb( 17, 0, 255 ) 0%, rgb( 170, 85, 243 ) 100%);
+  opacity: 0.502;
+  z-index: 35;
+  position: absolute;
+  margin: 0 auto;
+  width: 1300px;
+  height: 1053px;
+  background-repeat: no-repeat;
+}
+
+
+
+
+

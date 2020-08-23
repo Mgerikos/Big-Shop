@@ -1,0 +1,72 @@
+.items__card {
+  position: relative;
+  margin-bottom: 40px;
+  width: 400px;
+
+}
+
+.items__card:hover {
+  background-color: rgb( 255, 255, 255 );
+  box-shadow: 2.5px 4.33px 50px 5px rgb( 221, 223, 224 );
+}
+
+.button_add {
+  opacity: 0;
+}
+
+.items__card:hover .items__price {
+  color: rgb( 140, 132, 249 );
+}
+
+
+
+.items__card:hover .button_add {
+  cursor: pointer;
+  opacity: 1;
+}
+
+.items__card:hover .items__action {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 23px;
+  padding-left: 21px;
+  padding-right: 19px;
+}
+
+.items__card:hover .items__like {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.items__card:hover .items__like-img {
+  height: 21px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+.items__card:hover .items__like-quality {
+  height: 21px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.items__card:hover .items__comment {
+  cursor: pointer;
+  display: inline-block;
+}
+
+.items__card:hover .items__comment-img {
+  height: 21px;
+  display: inline-block;
+  vertical-align: middle;
+  margin-right: 5px;
+}
+
+.items__card:hover .items__comment-quality {
+  height: 21px;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+

@@ -1,0 +1,13 @@
+.brands__link {
+text-decoration: none;
+ color: blueviolet;
+ -webkit-transition: 0.3s opacity;
+  -o-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+  text-decoration: none;
+}
+
+
+.brands__link:hover {
+  opacity: 0.6;
+}

@@ -1,0 +1,17 @@
+.banner__subtitle {
+  font-size: 50px;
+  font-family: "Roboto";
+  line-height: 2.4;
+  text-align: left;
+  font-weight: 400;
+
+  text-transform: uppercase;
+  color: #fcfcfc;
+  margin-top: -200px;
+
+  z-index: 100;
+
+}
+
+
+

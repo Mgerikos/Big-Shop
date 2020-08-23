@@ -1,0 +1,14 @@
+.items__name {
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "OpenSans";
+  color: rgb( 119, 119, 119 );
+  line-height: 1.389;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  margin-bottom: 13px;
+
+}
+
+

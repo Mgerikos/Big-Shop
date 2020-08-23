@@ -1,0 +1,33 @@
+.newsletter__title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  padding-bottom: 84px;
+  font-size: 50px;
+  font-family: "OpenSans";
+  color: rgb( 255, 255, 255 );
+  line-height: 0.52;
+  text-align: center;
+  font-weight: 700;
+}
+
+.newsletter__title:before {
+  position: absolute;
+  content: 'get notified';
+  left: 50%;
+  white-space: nowrap;
+  -webkit-transform: translate(-50%, 50%);
+          transform: translate(-50%, 50%);
+          font-size: 150px;
+          font-family: "Roboto";
+          color: rgb( 254, 254, 254 );
+          text-transform: uppercase;
+          line-height: 0.173;
+          text-align: center;
+          opacity: 0.039;
+          font-weight: 700;
+}
+
+
+
+

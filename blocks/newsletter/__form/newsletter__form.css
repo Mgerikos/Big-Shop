@@ -1,0 +1,55 @@
+.newsletter__form {
+  display: flex;
+  vertical-align: middle;
+  position: relative;
+  width: 80%;
+  max-width: 800px;
+  height: 70px;
+  background-color: whitesmoke;
+  border: none;
+  border-radius: 50px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+
+.newsletter__form__input {
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb( 51, 51, 51 );
+  line-height: 1.3;
+  text-align: center;
+  font-weight: 400;
+  display: inline-block;
+  width: 70%;
+  border: none;
+  border-radius: 50px;
+}
+
+.newsletter__form__btn {
+  display: inline-block;
+  width: 30%;
+  border: 2px solid transparent;
+  font-size: 20px;
+  font-family: "OpenSans";
+  color: rgb( 255, 254, 254 );
+  line-height: 1.3;
+  text-align: center;
+  font-weight: 400;
+  margin: 6px;
+  padding: 13px 65px;
+  background-image: -moz-linear-gradient( 62deg, rgb( 140, 132, 249 ) 0%, rgb( 156, 108, 245 ) 100%);
+  background-image: -webkit-linear-gradient( 62deg, rgb( 140, 132, 249 ) 0%, rgb( 156, 108, 245 ) 100%);
+  border-radius: 50px;
+  -webkit-transition: 0.3s opacity;
+  -o-transition: 0.3s opacity;
+  transition: 0.3s opacity;
+}
+
+.newsletter__form__btn:hover {
+  cursor: pointer;
+  opacity: 0.6;
+}
+
+
+

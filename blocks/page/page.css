@@ -1,0 +1,11 @@
+.page {
+  min-width: 320px;
+  max-width: 1280px;
+    margin: 0 auto;
+    background:  white;
+    font-family: 'OpenSans', 'Roboto', 'Arial', 'Myriad Pro', sans-serif;
+    text-rendering: optimizeLegibility;
+
+}
+
+

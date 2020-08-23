@@ -1,0 +1,43 @@
+.header__search_img {
+  width: 30px;
+  height: 30px;
+  position: absolute;
+  left: 18px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+
+
+
+@media screen and (max-width: 942px){
+  .header__search_img{
+
+
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__search_img {
+
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .header__search_img {
+    width: 20px;
+  height: 20px;
+left: 0;
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .header__search_img {
+    width: 10px;
+  height: 10px;
+
+  }
+}

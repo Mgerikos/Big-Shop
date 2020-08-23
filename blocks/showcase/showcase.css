@@ -1,0 +1,15 @@
+@import url(./__menu/showcase__menu.css);
+@import url(./__menu-list/showcase__menu-list.css);
+@import url(./__menu-link/showcase__menu-link.css);
+
+.showcase {
+  width: 89%;
+  margin-right: auto;
+  margin-left: auto;
+  -webkit-transform: translateY(76px);
+          transform: translateY(76px);
+  box-shadow: -1px 5px 48px 3px rgba(237, 235, 253, 0.75);
+  background: #fff;
+  position: relative;
+  z-index: 2;
+}

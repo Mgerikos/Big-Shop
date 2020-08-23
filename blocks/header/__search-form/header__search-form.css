@@ -1,0 +1,45 @@
+
+.header__search-form {
+  font-family: "OpenSans";
+  font-style: normal;
+  font-weight: 700;
+  border: none;
+  font-size: 18px;
+  line-height: 1.444;
+  width: 50%;
+  box-sizing: border-box;
+  text-align: left;
+  color: rgb( 21, 21, 21 );
+}
+
+
+
+
+@media screen and (max-width: 942px){
+  .header__search-form {
+
+
+  }
+}
+
+@media screen and (max-width: 768px){
+  .header__search-form {
+
+  }
+}
+
+@media screen and (max-width: 450px){
+  .header__search-form {
+    font-size: 13px;
+
+  }
+}
+
+
+@media screen and (max-width: 320px){
+  .header__search-form {
+   margin-left: -12px;
+   font-size: 10px;
+
+  }
+}

@@ -1,0 +1,30 @@
+@import url(./__card-wrap/items__card-wrap.css);
+@import url(./__card/items__card.css);
+@import url(./__action/items__action.css);
+@import url(./__like/items__like.css);
+@import url(./__comment/items__comment.css);
+@import url(./__img/items__img.css);
+@import url(./__name/items__name.css);
+@import url(./__price/items__price.css);
+@import url(./__btn/items__btn.css);
+@import url(./__add-to-cart/items__add-to-cart.css);
+
+.items {
+
+ display: flex;
+ flex-direction: row;
+ flex-wrap: wrap;
+
+}
+
+.watches {
+  display: none;
+ flex-direction: row;
+ flex-wrap: wrap;
+}
+
+
+.watches.active {
+  display: flex;
+}
+

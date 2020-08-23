@@ -1,0 +1,15 @@
+@import url(./__title/bags__title.css);
+@import url(./__container/bags__container.css);
+
+
+
+
+.bags {
+  width: 90%;
+  margin: auto;
+  box-shadow: 2.5px 4.33px 50px 5px rgb( 237, 235, 253 );
+  background-color: rgb( 255, 255, 255 );
+  z-index: 500;
+  margin-top: -100px;
+}
+

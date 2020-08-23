@@ -1,0 +1,19 @@
+.footer__subtitle-link {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+  font-size: 18px;
+  font-family: "OpenSans";
+  color: rgb( 64, 64, 64 );
+  line-height: 1.444;
+  text-align: left;
+  font-weight: 700;
+}
+
+
+.footer__subtitle-link:hover {
+  -webkit-transform: scale(1.2);
+  -ms-transform: scale(1.2);
+  transform: scale(1.2);
+  transition: all 0.8s ease;
+}

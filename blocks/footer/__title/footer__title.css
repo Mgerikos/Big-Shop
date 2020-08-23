@@ -1,0 +1,14 @@
+.footer__title {
+  display: flex;
+  position: relative;
+  justify-content: center;
+  margin-bottom: -10px;
+  font-size: 40px;
+  font-family: "Roboto";
+  color: rgb( 34, 34, 34 );
+  line-height: 3;
+  text-align: left;
+  font-weight: 700;
+}
+
+

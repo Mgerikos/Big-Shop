@@ -1,0 +1,15 @@
+.banner__title {
+  font-size: 80px;
+  font-family: "Roboto";
+  color: rgb( 9, 0, 0 );
+  line-height: 1.043;
+  text-align: left;
+  margin-right: 135px;
+  margin-bottom: 170px;
+  color: #090000;
+
+  font-weight: 700;
+  z-index: 100;
+}
+
+

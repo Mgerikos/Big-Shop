@@ -1,0 +1,21 @@
+@import url(./__img/banner__img.css);
+@import url(./__title/banner__title.css);
+@import url(./__title/banner__title_type_color.css);
+@import url(./__subtitle/banner__subtitle.css);
+@import url(./__subtitle/banner__subtitle_type_color.css);
+@import url(./__text/banner__text.css);
+@import url(./_details/button_details.css);
+@import url(./__darkness/banner__darkness.css);
+
+
+.banner {
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: -130px;
+
+}
+
+
+
